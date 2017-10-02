@@ -47,7 +47,7 @@ mkdir ~/data/conda_packages_cache
 Then add the following two lines in the ~/.condarc file, change USER_NAME with your username literal:
 ```
 envs_dirs:
- \- /home/USER_NAME/data/conda_packages_cache/
+  - /home/USER_NAME/data/conda_packages_cache/
 ```
 
 Let the changes take effect:
